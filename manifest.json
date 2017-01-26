@@ -1,0 +1,19 @@
+{
+  "name": "videco",
+  "description": "A chrome extension that drops the quality of YouTube videos when they are running in the background",
+  "version": "1.0",
+  "permissions": [
+    "*://www.youtube.com/*"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "*://www.youtube.com/*"
+    ],
+    "js": ["content.js"],
+    "run_at": "document_end"
+  }],
+  "browser_action": {
+    "default_title": "videco"
+  },
+  "manifest_version": 2
+}
