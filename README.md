@@ -48,6 +48,6 @@ When the extension is installed and the user navigates to a Youtube Video, then 
 ## TODO
 
 - Only change quality if the video is playing to prevent unnecessary buffering
-- Toggle quality only when out of focus for some amount of time
-- Look into how to gracefully degrade stream to 144p; without disruption
+- Look into how to gracefully degrade stream without disruption
+- ~~Toggle quality only when out of focus for some amount of time~~
 - ~~Pick Auto quality setting instead of top most setting when the focussing~~
