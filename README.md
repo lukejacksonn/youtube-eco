@@ -1,4 +1,4 @@
-# videco
+# Youtube-eco
 
 > Less than 20 lines of code that YouTube have looked into implementing and found a good reason not to, but..
 
